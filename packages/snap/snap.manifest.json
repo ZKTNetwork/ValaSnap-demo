@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "description": "Vala Portal",
+  "proposedName": "Vala Portal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "Hko6nT/IAuCWkgSNaPxgCdApDOsra07xeREl2Gydj1o=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    },
+    "snap_getEntropy": {},
+    "endowment:ethereum-provider": {},
+    "endowment:network-access": {},
+    "endowment:transaction-insight": {
+      "allowTransactionOrigin": true
+    }
+  },
+  "manifestVersion": "0.1"
+}
